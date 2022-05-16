@@ -36,20 +36,7 @@ public class Calculadora {
         
     }
     
-    // Métodos de funciones de la clase
-    
-    public double suma () {
-        return (this.num1 + this.num2);
-    }
-    public double resta () {
-        return (this.num1 - this.num2);
-    }
-    public double multiplicacion () {
-        return (this.num1 * this.num2);
-    }
-    public double division () {
-       return (this.num1 / this.num2);
-    }
+
 
 
 // GETTERS & SETTERS
@@ -78,5 +65,19 @@ public class Calculadora {
     }
     public void setModelo( String modelo){
         this.modelo=modelo;
+    }
+        // Métodos de funciones de la clase
+    
+    public double suma () {
+        return (this.num1 + this.num2);
+    }
+    public double resta () {
+        return (this.num1 - this.num2);
+    }
+    public double multiplicacion () {
+        return (this.num1 * this.num2);
+    }
+    public double division () {
+       return (this.num1 / this.num2);
     }
 }
