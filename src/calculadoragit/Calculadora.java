@@ -32,10 +32,7 @@ public class Calculadora {
         this.modelo=modelo;
     }
     // Constructor sobrecargado
-    public Calculadora(){
-        
-    }
-    
+   
 
 
 
