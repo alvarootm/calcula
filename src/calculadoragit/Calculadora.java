@@ -7,7 +7,7 @@ package calculadoragit;
 
 /**
  *
- * @author Usuario
+ * @author alvarootm
  */
 public class Calculadora {
     private double num1;
